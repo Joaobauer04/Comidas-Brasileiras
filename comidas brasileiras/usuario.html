@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mercado do Bauer</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h2>Comidas Brasileiras</h2>
+    </header>
+
+    <div class="container">
+        <h3>Comidas de cada região</h3>
+        <div class="div-produtos">
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Feijoada')">
+            <label>Feijoada</label>
+            <br>
+            <input type="radio" name="frutas"
+              onclick="selecionarProdutos('Caldo de piranha')">
+            <label>Caldo de piranha</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Pizza')">
+            <label>Pizza</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Tapioca')">
+            <label>Tapioca</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Carne do sol')">
+            <label>Carne do sol</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Cocada')">
+            <label>Cocada</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Cuca alemã')">
+            <label>Cuca alemã</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Doce de cupuaçu')">
+            <label>Doce de cupuaçu</label>
+            <br>
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Empadão goiano')">
+            <label>Empadão goiano </label>
+            <br>
+
+            <input type="radio" name="frutas" 
+              onclick="selecionarProdutos('Lámen')">
+            <label>Lámen</label>
+
+        </div>
+        <div class="div-resultado">
+            <label>Resultado</label>
+            <br>
+            <label id="resultado"></label>
+        </div>
+    </div>
+    
+
+    <footer>
+        <ul>
+            <li>Super Mercado do Bauer</li>
+            <li>Aqui voce encontra as melhores comidas</li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
